@@ -1,0 +1,14 @@
+
+**** Build of configuration Debug for project matmult_no_dma ****
+
+make all 
+Building file: ../microblaze_0/libsrc/standalone_v3_01_a/src/profile/_profile_clean.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../matmult_no_dma_bsp/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.20.a -mno-xl-soft-mul -mhard-float -MMD -MP -MF"microblaze_0/libsrc/standalone_v3_01_a/src/profile/_profile_clean.d" -MT"microblaze_0/libsrc/standalone_v3_01_a/src/profile/_profile_clean.d" -o"microblaze_0/libsrc/standalone_v3_01_a/src/profile/_profile_clean.o" "../microblaze_0/libsrc/standalone_v3_01_a/src/profile/_profile_clean.c"
+In file included from ../microblaze_0/libsrc/standalone_v3_01_a/src/profile/_profile_clean.c:21:
+../microblaze_0/libsrc/standalone_v3_01_a/src/profile/_profile_timer_hw.h:75:21: error: xintc_l.h: No such file or directory
+../microblaze_0/libsrc/standalone_v3_01_a/src/profile/_profile_timer_hw.h:76:19: error: xintc.h: No such file or directory
+../microblaze_0/libsrc/standalone_v3_01_a/src/profile/_profile_timer_hw.h:80:23: error: xtmrctr_l.h: No such file or directory
+../microblaze_0/libsrc/standalone_v3_01_a/src/profile/_profile_clean.c: In function '_profile_clean':
+../microblaze_0/libsrc/standalone_v3_01_a/src/profile/_profile_clean.c:29: warning: implicit declaration of function 'disable_timer'
+make: *** [microblaze_0/libsrc/standalone_v3_01_a/src/profile/_profile_clean.o] Error 1

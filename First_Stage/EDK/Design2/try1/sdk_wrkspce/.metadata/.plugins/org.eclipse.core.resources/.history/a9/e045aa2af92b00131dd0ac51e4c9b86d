@@ -1,0 +1,121 @@
+// Author : Jeebu Jacob Thomas
+// Description : This code dumps Matrix Data in Order into the DDR2SDRAM 
+			  
+// Institution : IIT Bombay
+// Date : 02/09/2013			  
+#include<stdio.h>
+#include "xutil.h"
+#include "xio.h"
+// #include"plb_periph.h"
+#include"xparameters.h"
+#include "xmpmc_hw.h" 
+#include "xmpmc.h"
+#include "xparameters.h"
+#include "xdmacentral.h"
+#include "xdmacentral_l.h"
+#define N 32
+
+
+
+Xuint32 var,countreg;
+Xuint32 i,j,memreadvalue,regreadvalue,regreadvalue1,readmem0;
+
+
+// Delay function defined Here
+
+
+
+int main() // This is the main part of the program
+{
+	xil_printf("The programs starts here\n\r");
+	xil_printf("Writing Data into the DDRSDRAM \n\r"); 
+	///////////Initializing the Matrices A and B////////////////////////
+	
+	// Xuint32 matA[N][32];
+	// Xuint32 matB[N][32];
+	uint32_t matA[N][26];
+	xuint32 matB[N][26];
+	
+
+	xil_printf("Matrix A is \n\r") ;
+	   for(i=0;i<N;i++){
+		for(j=0;j<26;j++){ 
+			matA[i][j] = 0x00000001; 
+	   // xil_printf("%08x"),matA[i][j];
+	   xil_printf("%x"),matA[i][j];
+	    }
+	   xil_printf("\n\r");
+	   }
+
+	xil_printf("Matrix B is \n\r") ;
+	   // for(i=0;i<N;i++){
+	    // for(j=0;j<N/32;j++){
+	     // if(j==(i/32)) matB[i][j] = 0x80000000 >> (i%32);   
+	     // else matB[i][j] = 0x00000000 ;  
+	    // xil_printf("%08x"),matB[i][j] ;
+	    // }
+	    // xil_printf("\r\n");
+	   // }
+	
+	
+	
+	
+	
+	
+	///////////////////Writing the first 32 values////////
+	// for(i=0;i<64;i++)
+	// {
+		// if(i >= 0 && i < 32)
+		// {
+			// XMpmc_WriteReg(XPAR_MPMC_0_MPMC_BASEADDR,(i*4),5); 		
+			// delay();
+		// }
+		// else if((i >= 32 && i < 64))
+		// {
+			// XMpmc_WriteReg(XPAR_MPMC_0_MPMC_BASEADDR,(i*4),identityvalue>>(i-32)); 
+			// delay();
+		// }
+	// }	
+
+	
+	// xil_printf("The values read from the DDR2SDRAM are \n\r");
+	
+	
+	// for(i=0;i<64;i++)
+	// {
+		// memreadvalue = XMpmc_ReadReg(XPAR_MPMC_0_MPMC_BASEADDR,(i*4));
+		// xil_printf("%08x \n\r",memreadvalue); // Displaying in Hex Format
+    // }
+	
+	
+	
+	// for(i=0;i<64;i++)
+	// {
+		// readmem0 =  PLB_PERIPH_mReadMemory(XPAR_PLB_PERIPH_0_MEM0_BASEADDR+i*4); 
+		// xil_printf("%d th value is :%08x \n\r",i,readmem0);
+	// }
+	
+	// xil_printf("slvreg0 written, now computation begins\n\r");
+	
+	
+	
+	
+	// do
+	// {
+	// readreg = PLB_PERIPH_mReadSlaveReg2(XPAR_PLB_PERIPH_0_BASEADDR, 0);
+	// }while(readreg !=1);
+	
+	// xil_printf("computation is over now displaying the results \n\r");
+	
+// for(i=0;i<32;i++)
+	// {
+		// readmem0 =  PLB_PERIPH_mReadMemory(XPAR_PLB_PERIPH_0_MEM1_BASEADDR+i*4); 
+		// xil_printf("%d th value is :%08x \n\r",i,readmem0);
+	// }
+	
+	
+	
+	
+	xil_printf("Hooray its done!!!\n\r");
+return(0);
+}

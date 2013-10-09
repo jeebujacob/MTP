@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;matmult_no_dma&apos;" deleteContents="false" description="Delete resource &apos;matmult_no_dma&apos;" element1="/matmult_no_dma" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1380116245500"/>
+</session>

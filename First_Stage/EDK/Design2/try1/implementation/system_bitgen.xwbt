@@ -1,0 +1,7 @@
+INFILE=G:\StudyFolder\MTP\MAIN\EDK_work\Design2\matmult3232_raw1K\try1\implementation\system.ncd
+OUTFILE=G:\StudyFolder\MTP\MAIN\EDK_work\Design2\matmult3232_raw1K\try1\implementation\system.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-1ff1136
+WORKINGDIR=G:\StudyFolder\MTP\MAIN\EDK_work\Design2\matmult3232_raw1K\try1\implementation
+LICENSE=ISE
+USER_INFO=203015281_203016512_208266797_821

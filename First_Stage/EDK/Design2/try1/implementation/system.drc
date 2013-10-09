@@ -1,0 +1,20 @@
+Release 13.2 Drc O.61xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Tue Oct 01 22:14:42 2013
+
+drc -z system.ncd system.pcf
+
+WARNING:PhysDesignRules:367 - The signal <dlmb_LMB_ABus<31>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <dlmb_LMB_ABus<30>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <xps_central_dma_0/xps_central_dma_0/MASTER_ATTACHMENT_I/tempcs/ProtoComp2405
+   .A6LUT.O6> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <mb_plb_Sl_MRdErr<14>/ProtoComp2406.A6LUT.O6> is incomplete. The signal does
+   not drive any load pins in the design.
+DRC detected 0 errors and 4 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

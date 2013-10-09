@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="bootloop" key="try1_hw_platform-microblaze_0-initElf"/>
+	<item value="G:\StudyFolder\MTP\MAIN\EDK_work\Design2\matmult3232_raw1K\try1\sdk_wrkspce\try1_hw_platform\system.bit" key="try1_hw_platform-bitFile"/>
+	<item value="G:\StudyFolder\MTP\MAIN\EDK_work\Design2\matmult3232_raw1K\try1\sdk_wrkspce\try1_hw_platform\system_bd.bmm" key="try1_hw_platform-bmmFile"/>
+</section>

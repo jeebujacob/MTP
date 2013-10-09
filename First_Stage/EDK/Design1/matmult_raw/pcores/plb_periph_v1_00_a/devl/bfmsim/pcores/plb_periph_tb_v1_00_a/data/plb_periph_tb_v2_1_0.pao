@@ -1,0 +1,25 @@
+##############################################################################
+## Filename:          G:\StudyFolder\MTP\MAIN\EDK_work\Design1\matmult_raw/pcores/plb_periph_v1_00_a/devl/bfmsim/pcores/plb_periph_tb_v1_00_a/data/plb_periph_tb_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Tue Sep 24 15:53:51 2013 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a proc_common_pkg vhdl
+lib proc_common_v3_00_a ipif_pkg vhdl
+lib proc_common_v3_00_a or_muxcy vhdl
+lib proc_common_v3_00_a or_gate128 vhdl
+lib proc_common_v3_00_a family_support vhdl
+lib proc_common_v3_00_a pselect_f vhdl
+lib proc_common_v3_00_a counter_f vhdl
+lib plbv46_slave_burst_v1_01_a flex_addr_cntr vhdl
+lib plbv46_slave_burst_v1_01_a addr_reg_cntr_brst_flex vhdl
+lib plbv46_slave_burst_v1_01_a plb_address_decoder vhdl
+lib plbv46_slave_burst_v1_01_a burst_support vhdl
+lib plbv46_slave_burst_v1_01_a wr_buffer vhdl
+lib plbv46_slave_burst_v1_01_a be_reset_gen vhdl
+lib plbv46_slave_burst_v1_01_a plb_slave_attachment vhdl
+lib plbv46_slave_burst_v1_01_a data_mirror_128 vhdl
+lib plbv46_slave_burst_v1_01_a plbv46_slave_burst vhdl
+lib plb_periph_v1_00_a user_logic vhdl
+lib plb_periph_v1_00_a plb_periph vhdl
+simlib plb_periph_tb_v1_00_a plb_periph_tb vhdl

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="bootloop" key="matmult_raw_hw_platform-microblaze_0-initElf"/>
+	<item value="G:\StudyFolder\MTP\MAIN\EDK_work\Design1\matmult_raw\sdk_wrkspce\matmult_raw_hw_platform\system_bd.bmm" key="matmult_raw_hw_platform-bmmFile"/>
+	<item value="G:\StudyFolder\MTP\MAIN\EDK_work\Design1\matmult_raw\sdk_wrkspce\matmult_raw_hw_platform\system.bit" key="matmult_raw_hw_platform-bitFile"/>
+</section>

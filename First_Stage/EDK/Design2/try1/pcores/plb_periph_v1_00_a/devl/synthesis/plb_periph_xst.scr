@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "G:\StudyFolder\MTP\MAIN\EDK_work\Design2\matmult3232_raw1K\try1\pcores\plb_periph_v1_00_a\devl\synthesis\plb_periph_xst.prj"
+-top plb_periph
+-p virtex6
+-ofn "G:\StudyFolder\MTP\MAIN\EDK_work\Design2\matmult3232_raw1K\try1\pcores\plb_periph_v1_00_a\devl\synthesis\plb_periph_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib plb_periph_v1_00_a

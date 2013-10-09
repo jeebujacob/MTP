@@ -1,0 +1,454 @@
+!SESSION 2013-10-02 14:03:58.859 -----------------------------------------------
+eclipse.buildId=Release 13.2 Build SDK_O.61xd
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-10-02 14:04:27.187
+!MESSAGE Indexed 'hello_world_bsp_0' (57 sources, 51 headers) in 1.03 sec: 1,494 declarations; 8,493 references; 22 unresolved inclusions; 0 syntax errors; 83 unresolved names (0.82%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-10-02 14:04:27.375
+!MESSAGE Indexed 'hello_world_0' (2 sources, 31 headers) in 0.19 sec: 871 declarations; 824 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.06%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-10-02 14:05:50.265
+!MESSAGE Indexed 'peripheral_tests_0' (4 sources, 27 headers) in 0.12 sec: 808 declarations; 887 references; 22 unresolved inclusions; 0 syntax errors; 60 unresolved names (3.42%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-10-02 14:05:50.281
+!MESSAGE Indexed 'peripheral_tests_bsp_0' (0 sources, 8 headers) in 0.02 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-10-02 14:07:20.437
+!MESSAGE Indexed 'matgen' (0 sources, 21 headers) in 0.03 sec: 153 declarations; 291 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-10-02 14:07:20.453
+!MESSAGE Indexed 'matgen_bsp' (0 sources, 8 headers) in 0.02 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2013-10-03 12:25:26.703 -----------------------------------------------
+eclipse.buildId=Release 13.2 Build SDK_O.61xd
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-10-03 14:52:16.171
+!MESSAGE Indexed 'mat_rowtest_bsp' (57 sources, 51 headers) in 1.11 sec: 1,494 declarations; 8,493 references; 22 unresolved inclusions; 0 syntax errors; 83 unresolved names (0.82%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-10-03 14:52:16.312
+!MESSAGE Indexed 'mat_rowtest' (0 sources, 21 headers) in 0.09 sec: 153 declarations; 291 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.22%)
+!SESSION 2013-01-13 16:51:48.109 -----------------------------------------------
+eclipse.buildId=Release 13.2 Build SDK_O.61xd
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.xilinx.sdk.targetmanager 4 0 2013-10-03 22:52:01.750
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: Exception in com.xilinx.sdk.targetmanager.TMPlugin.stop() of bundle com.xilinx.sdk.targetmanager.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:863)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:597)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:588)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:415)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+Caused by: java.lang.RuntimeException:  ERROR: 
+    Lost communication with the jtag cable. The cable might be disconnected or powered-off
+    Check if the cable is connected and powered-on. Disconnect all active targets and start over.
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(Unknown Source)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	... 19 more
+Root exception:
+java.lang.RuntimeException:  ERROR: 
+    Lost communication with the jtag cable. The cable might be disconnected or powered-off
+    Check if the cable is connected and powered-on. Disconnect all active targets and start over.
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(Unknown Source)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:597)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:588)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:415)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+!SESSION 2013-10-03 23:15:34.093 -----------------------------------------------
+eclipse.buildId=Release 13.2 Build SDK_O.61xd
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.xilinx.sdk.targetmanager 4 0 2013-10-04 10:51:31.734
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: Exception in com.xilinx.sdk.targetmanager.TMPlugin.stop() of bundle com.xilinx.sdk.targetmanager.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:863)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:597)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:588)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:415)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+Caused by: java.lang.RuntimeException:  ERROR: 
+    Lost communication with the jtag cable. The cable might be disconnected or powered-off
+    Check if the cable is connected and powered-on. Disconnect all active targets and start over.
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(Unknown Source)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	... 19 more
+Root exception:
+java.lang.RuntimeException:  ERROR: 
+    Lost communication with the jtag cable. The cable might be disconnected or powered-off
+    Check if the cable is connected and powered-on. Disconnect all active targets and start over.
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(Unknown Source)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:597)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:588)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:415)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+
+!ENTRY org.eclipse.debug.core 4 0 2013-10-04 10:51:31.906
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.debug.core.DebugPlugin.stop() of bundle org.eclipse.debug.core.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:863)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:597)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:588)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:415)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+Caused by: java.lang.RuntimeException:  ERROR: 
+    Lost communication with the jtag cable. The cable might be disconnected or powered-off
+    Check if the cable is connected and powered-on. Disconnect all active targets and start over.
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.stopRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.terminate(Unknown Source)
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:252)
+	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2342)
+	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:605)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	... 19 more
+Root exception:
+java.lang.RuntimeException:  ERROR: 
+    Lost communication with the jtag cable. The cable might be disconnected or powered-off
+    Check if the cable is connected and powered-on. Disconnect all active targets and start over.
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.stopRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.terminate(Unknown Source)
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:252)
+	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2342)
+	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:605)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:597)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:588)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:415)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+!SESSION 2013-10-04 10:51:39.078 -----------------------------------------------
+eclipse.buildId=Release 13.2 Build SDK_O.61xd
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-10-04 12:37:27.062
+!MESSAGE Indexed 'matmult_full' (0 sources, 8 headers) in 0.06 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-10-04 12:40:12.890
+!MESSAGE Indexed 'empty_application_bsp_0' (0 sources, 8 headers) in 0.02 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-10-04 12:40:13.062
+!MESSAGE Indexed 'matmult_fulltry1' (0 sources, 21 headers) in 0.17 sec: 153 declarations; 291 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-10-04 12:41:08.015
+!MESSAGE Indexed 'matmult_entire_bsp' (0 sources, 8 headers) in 0.03 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-10-04 12:41:08.062
+!MESSAGE Indexed 'matmult_entire' (0 sources, 21 headers) in 0.05 sec: 153 declarations; 291 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.22%)
+
+!ENTRY com.xilinx.sdk.targetmanager 4 0 2013-10-04 21:37:36.640
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: Exception in com.xilinx.sdk.targetmanager.TMPlugin.stop() of bundle com.xilinx.sdk.targetmanager.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:863)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:597)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:588)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:415)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+Caused by: java.lang.RuntimeException:  ERROR: 
+    Lost communication with the jtag cable. The cable might be disconnected or powered-off
+    Check if the cable is connected and powered-on. Disconnect all active targets and start over.
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(Unknown Source)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	... 19 more
+Root exception:
+java.lang.RuntimeException:  ERROR: 
+    Lost communication with the jtag cable. The cable might be disconnected or powered-off
+    Check if the cable is connected and powered-on. Disconnect all active targets and start over.
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(Unknown Source)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:597)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:588)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:415)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-10-04 21:37:36.984
+!MESSAGE An internal error occurred during: "Monitoring hardware specifications".
+!STACK 0
+java.lang.IllegalStateException: Workspace is closed.
+	at org.eclipse.core.resources.ResourcesPlugin.getWorkspace(ResourcesPlugin.java:367)
+	at com.xilinx.sdk.hw.HwProject.getHwProjectsInWorkspace(Unknown Source)
+	at com.xilinx.sdk.hw.sync.HwPlatformMonitor.doMonitorTask(Unknown Source)
+	at com.xilinx.sdk.hw.sync.HwPlatformMonitor.access$0(Unknown Source)
+	at com.xilinx.sdk.hw.sync.HwPlatformMonitor$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:179)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4584)
+	at com.xilinx.sdk.hw.sync.HwPlatformMonitor.doMonitor(Unknown Source)
+	at com.xilinx.sdk.hw.sync.HwPlatformMonitorUtils$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2013-10-04 21:37:46.000 -----------------------------------------------
+eclipse.buildId=Release 13.2 Build SDK_O.61xd
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.xilinx.sdk.targetmanager 4 0 2013-10-05 11:51:32.468
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: Exception in com.xilinx.sdk.targetmanager.TMPlugin.stop() of bundle com.xilinx.sdk.targetmanager.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:863)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:597)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:588)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:415)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+Caused by: java.lang.RuntimeException:  ERROR: 
+    Lost communication with the jtag cable. The cable might be disconnected or powered-off
+    Check if the cable is connected and powered-on. Disconnect all active targets and start over.
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(Unknown Source)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	... 19 more
+Root exception:
+java.lang.RuntimeException:  ERROR: 
+    Lost communication with the jtag cable. The cable might be disconnected or powered-off
+    Check if the cable is connected and powered-on. Disconnect all active targets and start over.
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(Unknown Source)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:597)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:588)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:415)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+!SESSION 2013-10-06 12:34:17.328 -----------------------------------------------
+eclipse.buildId=Release 13.2 Build SDK_O.61xd
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-10-06 21:43:57.390
+!MESSAGE An internal error occurred during: "Monitoring hardware specifications".
+!STACK 0
+java.lang.IllegalStateException: Workspace is closed.
+	at org.eclipse.core.resources.ResourcesPlugin.getWorkspace(ResourcesPlugin.java:367)
+	at com.xilinx.sdk.hw.HwProject.getHwProjectsInWorkspace(Unknown Source)
+	at com.xilinx.sdk.hw.sync.HwPlatformMonitor.doMonitorTask(Unknown Source)
+	at com.xilinx.sdk.hw.sync.HwPlatformMonitor.access$0(Unknown Source)
+	at com.xilinx.sdk.hw.sync.HwPlatformMonitor$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:179)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4584)
+	at com.xilinx.sdk.hw.sync.HwPlatformMonitor.doMonitor(Unknown Source)
+	at com.xilinx.sdk.hw.sync.HwPlatformMonitorUtils$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2013-10-09 14:16:25.781 -----------------------------------------------
+eclipse.buildId=Release 13.2 Build SDK_O.61xd
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-10-09 14:16:54.843
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

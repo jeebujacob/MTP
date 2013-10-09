@@ -1,0 +1,14 @@
+-batch 
+-create plb_periph 
+-ver 1.00.a 
+-dir "G:\StudyFolder\MTP\MAIN\EDK_work\Design1\matmult_raw" 
+-lang vhdl 
+-bus plbv46 s 
+-burst s 32 
+-reg 3 
+-mem 2 
+-wrbuf 64 
+-xps 
+-ise 
+-bfmsim mgm "C:\Xilinx\13.2\ISE_DS\ISE\vhdl\mti_pe\6.6f\nt" "" 
+-driver 

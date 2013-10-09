@@ -1,0 +1,41 @@
+// Logic for matrix generation algorithm
+#include<stdio.h>
+#include "xutil.h"
+#include"xparameters.h"
+#include "xio.h"
+#include "defs.h"
+int i,j,k,l;
+Xuint32	identity_value = 0x80000000;
+Xuint32 ddr_offset = 0;
+for(i = 0;i<32; i++)
+{
+	for(j=0;j<32;j++)
+	{
+		// write 32 words each of value 09
+		XIo_Out32(DDR_MXIN+ddr_offset,9); 	
+		ddr_offset <= ddr_offset + 1;
+	}
+	
+	for(k=0;k<32;k++)
+	{
+		if(j=k)
+		{
+		// Print Identity Matrix
+			for(l=0;l<32;l++)
+			{
+				XIo_Out32(DDR_MXIN+ddr_offset,identity_value >> l); 	
+				ddr_offset <=  ddr_offset + 4;
+			}
+		else
+		{
+			for(l=0;l<32;l++)
+			{
+				XIo_Out32(DDR_MXIN+ddr_offset,0x00000000); 	
+				ddr_offset <=  ddr_offset + 4;
+			
+			}
+		}
+		}
+		
+	}
+}	
